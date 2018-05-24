@@ -1,0 +1,14 @@
+{
+  "hexSize":60,
+  "turnLimit": 100,
+  "resourcesFileName":"resources.json",
+  "terrainFileName": "terrain.json",
+  "typeFiles":["types.json", "abstract_entities.json"],
+  "evalFileName":"eval.json",
+  "aiFileName":"ai.json",
+  "ruleFileName":"rules.json",
+  "rules":[
+    "PlayerFilter[0:KeepAlive[Base_11:6]]",
+    "PlayerFilter[1:KeepAlive[Base_22:6]]"
+  ]
+}

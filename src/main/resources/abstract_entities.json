@@ -1,0 +1,109 @@
+[
+  {
+    "name": "abstract_town",
+    "properties": {
+      "health": 100,
+      "defence": 9,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Generate[Energy:10]"
+    ]
+  },
+  {
+    "name": "abstract_archery",
+    "properties": {
+      "health": 5,
+      "defence": 0
+    }
+  },
+  {
+    "name": "abstract_knightery",
+    "properties": {
+      "health": 10,
+      "defence": 0
+    }
+  },
+  {
+    "name": "abstract_civilian1",
+    "properties": {
+      "movement": 0,
+      "health": 100,
+      "attackRange": 0,
+      "atkMelee": 0,
+      "ter-grass": 1
+
+    },
+    "_actions": [
+    ]
+  },
+  {
+    "name": "abstract_civilian2",
+    "properties": {
+      "movement": 1,
+      "health": 100,
+      "attackRange": 0,
+      "atkMelee": 0,
+      "ter-grass": 1
+
+    },
+    "_actions": [
+    ]
+  },
+  {
+    "name": "abstract_archer",
+    "properties": {
+      "movement": 3,
+      "health": 20,
+      "attackRange": 2,
+      "atkMelee": 1,
+      "atkRanged": 5,
+      "defRanged": 0,
+      "ter-grass": 1
+
+    },
+    "cost": {
+      "Energy": 30
+    },
+    "_actions": [
+      "Move",
+      "ShipAttack"
+    ]
+
+  },
+  {
+    "name": "abstract_knight",
+    "properties": {
+      "movement": 1,
+      "health": 50,
+      "attackRange": 4,
+      "atkRanged": 10,
+      "defMelee": 0,
+      "defRanged": 0,
+      "ter-grass": 1
+    },
+    "cost": {
+      "Energy": 20
+    },
+    "_actions": [
+      "Move",
+      "ShipAttack"
+    ]
+  },
+  {
+    "name": "abstract_king",
+    "properties": {
+      "movement": 3,
+      "health": 40,
+      "attackRange": 3,
+      "atkRanged": 10,
+      "defMelee": 1,
+      "defRanged": 1,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "ShipAttack"
+    ]
+  }
+]

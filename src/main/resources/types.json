@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Base_1",
+    "_extends": "abstract_civilian1",
+    "sprite": {
+      "image": "Base"
+    },
+    "_actions": [
+      "OverdriveBuild[Ship_1A:time]",
+      "OverdriveBuild[Ship_2A:time]",
+      "OverdriveBuild[Generator_A:time]"
+    ]
+  },
+  {
+    "name": "Base_11",
+    "_extends": "abstract_civilian1",
+    "sprite": {
+      "image": "space",
+      "scale": 0.01
+    },
+    "_actions": [
+      "OverdriveBuild[Ship_1A:time]",
+      "OverdriveBuild[Ship_2A:time]",
+      "OverdriveBuild[Generator_A:time]"
+    ]
+  },
+  {
+    "name": "Base_22",
+    "_extends": "abstract_civilian2",
+    "sprite": {
+      "image": "bridge",
+      "scale": 0.01
+    },
+    "_actions": [
+      "OverdriveBuild[Ship_1B:time]",
+      "OverdriveBuild[Ship_2B:time]",
+      "OverdriveBuild[Generator_B:time]"
+    ]
+  },
+  {
+    "name": "Base_2",
+    "_extends": "abstract_civilian2",
+    "sprite": {
+      "image": "mothership"
+    },
+    "_actions": [
+      "OverdriveBuild[Ship_1B:time]",
+      "OverdriveBuild[Ship_2B:time]",
+      "OverdriveBuild[Generator_B:time]"
+    ]
+  },
+  {
+    "name": "debris1",
+    "_extends": "abstract_archery",
+    "sprite": {
+      "image": "mutiple rocks",
+      "scale": 0.9
+    },
+    "_actions": [
+
+    ]
+  },
+  {
+    "name": "debris2",
+    "_extends": "abstract_knightery",
+    "sprite": {
+      "image": "Big rock",
+      "scale": 0.9
+    },
+    "_actions": [
+
+    ]
+  },
+  {
+    "name": "Ship_1A",
+    "_extends": "abstract_archer",
+    "sprite": {
+      "image": "tiny ship",
+      "scale": 0.7
+    },
+    "_actions":["Fuse[Ship_1A:Scout_A]"]
+  },
+  {
+    "name": "Ship_1B",
+    "_extends": "abstract_archer",
+    "sprite": {
+      "image": "ship",
+      "scale": 0.7
+    },
+    "_actions":["Fuse[Ship_1B:Scout_B]"]
+  },
+  {
+    "name": "Ship_2A",
+    "_extends": "abstract_knight",
+    "sprite": {
+      "image": "medium ship",
+      "scale": 0.6
+    },
+    "_actions":["Fuse[Ship_2A:Heavy_A]"]
+  },
+  {
+    "name": "Ship_2B",
+    "_extends": "abstract_knight",
+    "sprite": {
+      "image": "Ship 2",
+      "scale": 0.6
+    },
+    "_actions":["Fuse[Ship_2B:Heavy_B]"]
+  },
+  {
+    "name": "Scout_A",
+    "_extends": "abstract_king",
+    "sprite": {
+      "image": "tiny ship 2",
+      "scale": 0.9
+    }
+  },
+  {
+    "name": "Scout_B",
+    "_extends": "abstract_king",
+    "sprite": {
+      "image": "space ship",
+      "scale": 0.9
+    }
+  },
+  {
+    "name": "Generator_A",
+    "sprite": {
+      "image": "sphere of destiny 2",
+      "scale": 0.5
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Fuse[Generator_A:Sgenerator_A]",
+      "Generate[Energy:5]",
+      "Move"
+    ]
+  },
+  {
+    "name": "Generator_B",
+    "sprite": {
+      "image": "sphere of destiny",
+      "scale": 0.5
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Fuse[Generator_B:Sgenerator_B]",
+      "Generate[Energy:5]",
+      "Move"
+    ]
+  },
+  {
+    "name": "Sgenerator_B",
+    "sprite": {
+      "image": "execution",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Generate[Energy:10]",
+      "Move"
+    ]
+  },
+  {
+    "name": "Sgenerator_A",
+    "sprite": {
+      "image": "alien scoriot ship",
+      "scale": 1
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Generate[Energy:10]",
+      "Move"
+    ]
+  },
+  {
+    "name": "Heavy_B",
+    "sprite": {
+      "image": "cannon",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "ShipAttack"
+    ]
+  },
+  {
+    "name": "Heavy_A",
+    "sprite": {
+      "image": "alien 3",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 5,
+      "movement": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "ShipAttack"
+    ]
+  }
+]

@@ -1,0 +1,912 @@
+{
+  "width": 12,
+  "height": 12,
+  "players": 2,
+  "hexSize": 60,
+  "resources": [],
+  "entities": [
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 0,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 1,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 2,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 4,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 3,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 5,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 6,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 8,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 7,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 9,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 10,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": -1,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 0,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 1,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 2,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 3,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 4,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 6,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 5,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 7,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 8,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 9,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_civilian",
+      "location": {
+        "x": 10,
+        "z": 2
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 3,
+        "z": 1
+      },
+      "owner": 0,
+      "properties": {
+        "health": 20
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 4,
+        "z": 1
+      },
+      "owner": 0,
+      "properties": {
+        "health": 20
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 5,
+        "z": 1
+      },
+      "owner": 0,
+      "properties": {
+        "health": 20
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 6,
+        "z": 1
+      },
+      "owner": 0,
+      "properties": {
+        "health": 20
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 7,
+        "z": 1
+      },
+      "owner": 0,
+      "properties": {
+        "health": 20
+      }
+    },
+    {
+      "type": "blue_knight",
+      "location": {
+        "x": 1,
+        "z": 9
+      },
+      "owner": 1,
+      "properties": {
+        "health": 50
+      }
+    }
+  ],
+  "terrain": {
+    "wood": [],
+    "desert": [
+      {
+        "x": 1,
+        "z": 4
+      },
+      {
+        "x": 2,
+        "z": 3
+      },
+      {
+        "x": 2,
+        "z": 4
+      },
+      {
+        "x": 1,
+        "z": 3
+      },
+      {
+        "x": 0,
+        "z": 4
+      },
+      {
+        "x": 1,
+        "z": 5
+      },
+      {
+        "x": 3,
+        "z": 3
+      },
+      {
+        "x": 2,
+        "z": 2
+      },
+      {
+        "x": 3,
+        "z": 2
+      },
+      {
+        "x": 3,
+        "z": 4
+      },
+      {
+        "x": 2,
+        "z": 5
+      },
+      {
+        "x": 1,
+        "z": 2
+      },
+      {
+        "x": 0,
+        "z": 3
+      },
+      {
+        "x": -1,
+        "z": 4
+      },
+      {
+        "x": -1,
+        "z": 5
+      },
+      {
+        "x": 1,
+        "z": 6
+      },
+      {
+        "x": 4,
+        "z": 2
+      },
+      {
+        "x": 4,
+        "z": 3
+      },
+      {
+        "x": 3,
+        "z": 1
+      },
+      {
+        "x": 2,
+        "z": 1
+      },
+      {
+        "x": 4,
+        "z": 1
+      },
+      {
+        "x": 4,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 5
+      },
+      {
+        "x": 2,
+        "z": 6
+      },
+      {
+        "x": 1,
+        "z": 1
+      },
+      {
+        "x": 0,
+        "z": 2
+      },
+      {
+        "x": -1,
+        "z": 3
+      },
+      {
+        "x": -2,
+        "z": 4
+      },
+      {
+        "x": -2,
+        "z": 5
+      },
+      {
+        "x": -2,
+        "z": 6
+      },
+      {
+        "x": 1,
+        "z": 7
+      },
+      {
+        "x": 0,
+        "z": 7
+      },
+      {
+        "x": -1,
+        "z": 7
+      },
+      {
+        "x": -2,
+        "z": 7
+      },
+      {
+        "x": 5,
+        "z": 1
+      },
+      {
+        "x": 5,
+        "z": 2
+      },
+      {
+        "x": 5,
+        "z": 3
+      },
+      {
+        "x": 4,
+        "z": 0
+      },
+      {
+        "x": 3,
+        "z": 0
+      },
+      {
+        "x": 2,
+        "z": 0
+      },
+      {
+        "x": 5,
+        "z": 0
+      },
+      {
+        "x": 4,
+        "z": 5
+      },
+      {
+        "x": 5,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 6
+      },
+      {
+        "x": 2,
+        "z": 7
+      },
+      {
+        "x": 0,
+        "z": 1
+      },
+      {
+        "x": 1,
+        "z": 0
+      },
+      {
+        "x": -1,
+        "z": 2
+      },
+      {
+        "x": -3,
+        "z": 6
+      },
+      {
+        "x": -3,
+        "z": 7
+      },
+      {
+        "x": 1,
+        "z": 8
+      },
+      {
+        "x": 0,
+        "z": 8
+      },
+      {
+        "x": -1,
+        "z": 8
+      },
+      {
+        "x": -2,
+        "z": 8
+      },
+      {
+        "x": -3,
+        "z": 8
+      },
+      {
+        "x": 6,
+        "z": 0
+      },
+      {
+        "x": 6,
+        "z": 1
+      },
+      {
+        "x": 6,
+        "z": 2
+      },
+      {
+        "x": 6,
+        "z": 3
+      },
+      {
+        "x": 5,
+        "z": 5
+      },
+      {
+        "x": 4,
+        "z": 6
+      },
+      {
+        "x": 6,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 7
+      },
+      {
+        "x": 2,
+        "z": 8
+      },
+      {
+        "x": 0,
+        "z": 0
+      },
+      {
+        "x": -4,
+        "z": 8
+      },
+      {
+        "x": 1,
+        "z": 9
+      },
+      {
+        "x": 0,
+        "z": 9
+      },
+      {
+        "x": -1,
+        "z": 9
+      },
+      {
+        "x": -2,
+        "z": 9
+      },
+      {
+        "x": -3,
+        "z": 9
+      },
+      {
+        "x": -4,
+        "z": 9
+      },
+      {
+        "x": 7,
+        "z": 0
+      },
+      {
+        "x": 7,
+        "z": 1
+      },
+      {
+        "x": 7,
+        "z": 2
+      },
+      {
+        "x": 7,
+        "z": 3
+      },
+      {
+        "x": 5,
+        "z": 6
+      },
+      {
+        "x": 6,
+        "z": 5
+      },
+      {
+        "x": 7,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 8
+      },
+      {
+        "x": 2,
+        "z": 9
+      },
+      {
+        "x": 1,
+        "z": 10
+      },
+      {
+        "x": 0,
+        "z": 10
+      },
+      {
+        "x": -1,
+        "z": 10
+      },
+      {
+        "x": -2,
+        "z": 10
+      },
+      {
+        "x": -3,
+        "z": 10
+      },
+      {
+        "x": -4,
+        "z": 10
+      },
+      {
+        "x": -5,
+        "z": 10
+      },
+      {
+        "x": 8,
+        "z": 0
+      },
+      {
+        "x": 8,
+        "z": 1
+      },
+      {
+        "x": 8,
+        "z": 2
+      },
+      {
+        "x": 8,
+        "z": 3
+      },
+      {
+        "x": 6,
+        "z": 6
+      },
+      {
+        "x": 5,
+        "z": 7
+      },
+      {
+        "x": 4,
+        "z": 8
+      },
+      {
+        "x": 8,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 9
+      },
+      {
+        "x": 2,
+        "z": 10
+      },
+      {
+        "x": 1,
+        "z": 11
+      },
+      {
+        "x": 0,
+        "z": 11
+      },
+      {
+        "x": -1,
+        "z": 11
+      },
+      {
+        "x": -2,
+        "z": 11
+      },
+      {
+        "x": -3,
+        "z": 11
+      },
+      {
+        "x": -4,
+        "z": 11
+      },
+      {
+        "x": -5,
+        "z": 11
+      },
+      {
+        "x": 9,
+        "z": 0
+      },
+      {
+        "x": 9,
+        "z": 1
+      },
+      {
+        "x": 9,
+        "z": 2
+      },
+      {
+        "x": 5,
+        "z": 8
+      },
+      {
+        "x": 8,
+        "z": 5
+      },
+      {
+        "x": 4,
+        "z": 9
+      },
+      {
+        "x": 9,
+        "z": 4
+      },
+      {
+        "x": 3,
+        "z": 10
+      },
+      {
+        "x": 2,
+        "z": 11
+      },
+      {
+        "x": 10,
+        "z": 0
+      },
+      {
+        "x": 10,
+        "z": 1
+      },
+      {
+        "x": 10,
+        "z": 2
+      },
+      {
+        "x": 10,
+        "z": 3
+      },
+      {
+        "x": 6,
+        "z": 8
+      },
+      {
+        "x": 8,
+        "z": 6
+      },
+      {
+        "x": 5,
+        "z": 9
+      },
+      {
+        "x": 9,
+        "z": 5
+      },
+      {
+        "x": 4,
+        "z": 10
+      },
+      {
+        "x": 3,
+        "z": 11
+      },
+      {
+        "x": 11,
+        "z": 0
+      },
+      {
+        "x": 11,
+        "z": 1
+      },
+      {
+        "x": 7,
+        "z": 8
+      },
+      {
+        "x": 8,
+        "z": 7
+      },
+      {
+        "x": 6,
+        "z": 9
+      },
+      {
+        "x": 5,
+        "z": 10
+      },
+      {
+        "x": 4,
+        "z": 11
+      },
+      {
+        "x": 7,
+        "z": 9
+      },
+      {
+        "x": 6,
+        "z": 10
+      },
+      {
+        "x": 5,
+        "z": 11
+      },
+      {
+        "x": 6,
+        "z": 11
+      },
+      {
+        "x": 4,
+        "z": 7
+      },
+      {
+        "x": 7,
+        "z": 5
+      },
+      {
+        "x": 9,
+        "z": 3
+      }
+    ],
+    "water": [
+      {
+        "x": -1,
+        "z": 6
+      },
+      {
+        "x": 0,
+        "z": 6
+      },
+      {
+        "x": 0,
+        "z": 5
+      },
+      {
+        "x": 6,
+        "z": 7
+      },
+      {
+        "x": 7,
+        "z": 7
+      },
+      {
+        "x": 7,
+        "z": 6
+      }
+    ]
+  },
+  "startingResources": {}
+}
